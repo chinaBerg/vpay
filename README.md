@@ -5,6 +5,7 @@ vue插件，仿支付软件某宝的支付密码框实现
 
 ####代码演示
 #####基本用法
+```html
 <pay-keyborad 
     v-model="show"           
     ref="pays" 
