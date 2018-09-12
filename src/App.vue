@@ -3,13 +3,13 @@
       <h3>仿某宝支付密码框的vue插件</h3>
       <div class="submit-btn" @click="onShowPay">点击显示支付弹窗</div>
 
-      <zfc-password
+      <zfb-password
             v-model="show"           
             ref="pays"
             @close="close"
             @forget="forget"
             @input-end="inputEnd"
-      ></zfc-password>
+      ></zfb-password>
   </div>
 </template>
 

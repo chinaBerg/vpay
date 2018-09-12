@@ -1,7 +1,7 @@
 import keyboard from './pay'
 const zfcPassword = {
     install (Vue, options) {
-        Vue.component('zfc-password', keyboard)
+        Vue.component('zfb-password', keyboard)
     }
 }
 
