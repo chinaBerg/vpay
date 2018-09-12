@@ -46,7 +46,8 @@ vue插件，仿支付软件某宝的支付密码框实现
 | :- | :- | :- |
 | $success | 通知插件支付结果成功，该方法返回promise，可在.then()方法中进行成功后的回调函数 | - |
 | $fail| 密码弹窗关闭后的回调函数 | - |  
-用法示例：  
+
+##### 用法示例：  
 支付结果成功：  
 ```javascript
 this.$refs.pays.$success(true).then(res => {
