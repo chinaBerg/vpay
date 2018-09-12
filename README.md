@@ -1,6 +1,6 @@
-# vue-zfb-password
+# zfc-password
+vue插件，仿支付软件某宝的支付密码框实现
 
-> 仿某宝支付密码弹窗
 ![支付密码框演示动图](./static/pay.gif)
 
 ####代码演示
@@ -71,5 +71,3 @@ npm run build
 # build for production and view the bundle analyzer report
 npm run build --report
 ```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
