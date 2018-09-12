@@ -1,10 +1,13 @@
 # zfb-password
 vue插件，仿支付软件某宝的支付密码框实现
 
+### demo地址
+[demo演示页面](https://chinaberg.github.io/zfb-password/dist/#/, '支付密码弹窗demo演示页面')
+
+### 动态图演示
 ![支付密码框演示动图](./static/pay.gif)
 
-#### 代码演示  
-##### 基本用法  
+#### 基本用法  
 ```html
 <zfb-password
     v-model="show"           
@@ -15,7 +18,7 @@ vue插件，仿支付软件某宝的支付密码框实现
 ></zfb-password>
 ```
 
-#### API  
+### API  
 | 参数 | 说明 | 类型 | 默认值 |  
 | - | :- | :- | :-: |  
 | v-model | 密码框的显示隐藏 | Boolean | false | 
@@ -27,7 +30,7 @@ vue插件，仿支付软件某宝的支付密码框实现
 | duration | 支付成功提示的显示时间 | Number | 500 |
 
 
-#### Event    
+### Event    
 
 | 事件名 | 说明 | 参数 |  
 | :- | :- | :- |
@@ -35,18 +38,18 @@ vue插件，仿支付软件某宝的支付密码框实现
 | close | 密码弹窗关闭后的回调函数 | - |
 | forget | 点击忘记密码的回调函数 | - |
 
-#### input-end 回调参数
+### input-end 回调参数
 | 参数名 | 说明 | 类型 |
 | - | :- | :- |
 | val | 支付密码 | String |
 
-#### 插件内部方法  
+### 插件内部方法  
 | 方法名 | 说明 | 参数 |  
 | :- | :- | :- |
 | $success | 通知插件支付结果成功，该方法返回promise，可在.then()方法中进行成功后的回调函数 | - |
 | $fail| 密码弹窗关闭后的回调函数 | - |  
 
-##### 用法示例：  
+#### 用法示例：  
 支付结果成功：  
 ```javascript
 this.$refs.pays.$success(true).then(res => {
