@@ -1,4 +1,4 @@
-# zfc-password
+# zfb-password
 vue插件，仿支付软件某宝的支付密码框实现
 
 ![支付密码框演示动图](./static/pay.gif)
@@ -6,14 +6,13 @@ vue插件，仿支付软件某宝的支付密码框实现
 #### 代码演示  
 ##### 基本用法  
 ```html
-<pay-keyborad 
+<zfb-password
     v-model="show"           
-    ref="pays" 
+    ref="pays"
     @close="close"
     @forget="forget"
     @input-end="inputEnd"
-    :digit="4"
-></pay-keyborad>
+></zfb-password>
 ```
 
 #### API  
