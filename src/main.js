@@ -3,7 +3,7 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-import vpay from './lib/vpay'
+import vpay from 'vpay'
 
 Vue.use(vpay);
 
