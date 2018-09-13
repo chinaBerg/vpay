@@ -22,12 +22,12 @@ Vue.use(vpay);
 
 #### 基本用法  
 ```html
-<zpay ref="pays"
+<vpay ref="pays"
     v-model="show"           
     @close="close"
     @forget="forget"
     @input-end="inputEnd"
-></zpay>
+></vpay>
 ```
 
 ### API  
