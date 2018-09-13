@@ -1,16 +1,19 @@
 <template>
-  <div id="app">
-      <h3>仿某宝支付密码框的vue插件</h3>
-      <div class="submit-btn" @click="onShowPay">点击显示支付弹窗</div>
+    <div id="app">
+        <h3 class="index-title">仿某宝支付密码框的vue插件</h3>
+        <h3 class="index-title">这里模拟的密码为：111111</h3>
+      
+        <div class="submit-btn" @click="onShowPay">点击显示支付弹窗</div>
 
-      <zfb-password
-            v-model="show"           
+        <!--支付密码弹窗-->
+        <vpay
             ref="pays"
+            v-model="show"           
             @close="close"
             @forget="forget"
             @input-end="inputEnd"
-      ></zfb-password>
-  </div>
+        ></vpay>
+    </div>
 </template>
 
 <script>
@@ -63,19 +66,31 @@ export default {
     * {
       padding: 0;
       margin: 0;
+      box-sizing: border-box;
+      user-select: none;
     }
     body {
         max-width: 750px;
         margin: 0 auto;
     }
-
+    #app {
+        min-height: 100vh;
+        background: #f1f1f1;
+    }
+    .index-title {
+        padding-top: 50px;
+        font-weight: normal;
+        text-align: center;
+    }
     .submit-btn {
-        width: 100%;
+        width: 50%;
         height: 50px;
-        margin: 300px auto;
+        margin: 100px auto 0;
+        line-height: 50px;
+        text-align: center;
+        border-radius: 10px;
         background: #f00;
         color: #fff;
-        text-align: center;
-        line-height: 50px;
+        cursor: pointer; 
     }
 </style>

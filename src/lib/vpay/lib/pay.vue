@@ -215,7 +215,12 @@ export default {
 }
 </script>
 
-<style  scoped>
+<style scoped>
+    * {
+        padding: 0;
+        margin: 0;
+        font-size: 14px;
+    }
     ul, li {
         list-style: none;
     }

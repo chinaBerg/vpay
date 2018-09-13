@@ -3,13 +3,13 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-import payPassword from './lib/zfc-password'
+import vpay from './lib/vpay'
 
-Vue.use(payPassword)
+Vue.use(vpay);
 
 Vue.config.productionTip = false
 
-/* eslint-disable no-new */
+/* eslint-disable no-new */ 
 new Vue({
   el: '#app',
   router,
