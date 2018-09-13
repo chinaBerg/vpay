@@ -1,4 +1,4 @@
-# zfb-password
+# vpay
 vue移动端支付密码窗插件，仿支付宝密码框。
 
 ### demo地址
