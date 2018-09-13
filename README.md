@@ -2,7 +2,7 @@
 vue插件，仿支付软件某宝的支付密码框实现
 
 ### demo地址
-[demo演示页面](https://chinaberg.github.io/zfb-password/dist/#/, '支付密码弹窗demo演示页面')
+[demo演示页面](https://chinaberg.github.io/vpay/dist/#/, '支付密码弹窗demo演示页面')
 
 ### 动态图演示
 ![支付密码框演示动图](./static/pay.gif)
