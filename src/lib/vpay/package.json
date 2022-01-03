@@ -3,9 +3,6 @@
   "version": "1.0.3",
   "description": "基于vue项目的移动端支付密码框插件",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [
     "vpay",
     "vue",
@@ -14,5 +11,5 @@
     "password"
   ],
   "author": "1563940776@qq.com",
-  "license": "ISC"
+  "license": ""
 }
